@@ -1,6 +1,6 @@
 require 'colorize'
 
-def testChoice(input)
+def test_choice(input)
   i = input.length
   new_string = ''
   while i > 0 do
