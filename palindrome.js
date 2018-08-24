@@ -2,7 +2,7 @@ var $btn = $('#submit')
 var $output = $('#output')
 
 function test(){
-  input = $('#input').val().replace(/\s+/g, '')
+  input = $('#input').val().replace(/\s+/g, '').toLowerCase()
   newString = ''
   for(i = input.length - 1; i >= 0; i--){
     newString += input[i]
